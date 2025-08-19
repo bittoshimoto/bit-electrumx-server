@@ -1062,7 +1062,8 @@ class Rabbit(AuxPowMixin, Coin):
     RPC_PORT = 9876
     REORG_LIMIT = 2000
     PEERS = [
-
+        'electrum.b1tcore.org s t',
+        'electrum.b1texplorer.com s t',
     ]
 
 
